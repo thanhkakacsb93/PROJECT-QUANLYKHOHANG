@@ -1,0 +1,87 @@
+.box-tabaleExportCommand{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .tabaleExportCommand{
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+        .topExportCommand{
+            max-width: 900px;
+            display: flex;
+            justify-content: space-between;
+            &-left{
+                text-align: center;
+                border: none;
+                & .b1{
+                    border-bottom: 2px solid black;
+                    padding-bottom: 2px;
+                }       
+            }
+            &-right{
+                text-align: center;
+                border: none;
+                & .b1{
+                    border-bottom: 2px solid black;
+                    padding-bottom: 2px;
+                }
+                & .b2{
+                    font-style: italic;
+                }
+            }
+        }
+        .ExportCommand{
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .box-listExportCommand{
+            border-collapse: collapse;
+            .listExportCommand{
+            max-width: 900px;
+            display: flex;
+            margin-top: 40px;
+                .Column1{
+                    flex: 0.1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Column2{
+                    flex: 0.4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Column3{
+                    flex: 0.1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Column4{
+                    flex: 0.1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Column5{
+                    flex: 0.1 ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Column6{
+                    flex: 0.2;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                }
+            
+            }
+        }
+    }
+}

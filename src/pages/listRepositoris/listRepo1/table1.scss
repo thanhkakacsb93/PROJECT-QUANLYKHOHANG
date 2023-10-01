@@ -1,0 +1,26 @@
+.box-product{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+table{
+    width: 90vw;
+}
+th{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+  }
+.HomePage{
+    cursor: pointer;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 50px;
+}
+.NameRepo{
+    text-align: center;
+}
